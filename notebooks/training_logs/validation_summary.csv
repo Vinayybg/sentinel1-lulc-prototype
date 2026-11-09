@@ -1,0 +1,6 @@
+run,best_epoch,val_mIoU,val_OA,final_train_loss,epochs
+"U-Net, scratch",92,0.54,0.716,0.817,100
+"DeepLabV3+, scratch",83,0.536,0.722,0.683,100
+"U-Net, pretrained (final)",84,0.567,0.738,0.701,100
+"DeepLabV3+, pretrained",77,0.558,0.735,0.643,100
+"FPN-ResNet50, pretrained",93,0.566,0.742,0.555,100

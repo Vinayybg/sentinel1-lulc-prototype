@@ -1,0 +1,8 @@
+# Extra packages only for the Singapore case study (reference map building and evaluation).
+# Install after requirements.txt:  pip install -r requirements-casestudy.txt
+geopandas==1.2.0
+shapely==2.2.0
+rasterio==1.4.4
+osmnx==2.1.1
+scipy==1.17.1
+requests==2.34.2

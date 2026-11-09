@@ -1,0 +1,5 @@
+run,epochs,best_epoch,val_mIoU_own_labels,val_mIoU_vs_consensus,val_OA,final_epoch_mIoU_vs_consensus
+Consensus labels,60,60,0.518,0.518,0.7,0.518
+WorldCover labels,60,60,0.462,0.491,0.664,0.491
+Dynamic World labels,60,49,0.483,0.442,0.662,0.458
+"Consensus labels, 1 month of radar",60,56,0.461,0.461,0.655,0.459

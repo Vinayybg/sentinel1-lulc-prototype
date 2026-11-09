@@ -1,0 +1,13 @@
+# Sentinel-1 LULC prototype (Python 3.11). Install with:  pip install -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.4.6
+pandas==3.1.1
+matplotlib==3.11.2
+pyproj==3.7.2
+earthengine-api==1.7.51
+torch==2.15.0+cpu ; sys_platform != "darwin"
+torch==2.15.0 ; sys_platform == "darwin"
+torchvision==0.29.2
+segmentation_models_pytorch==0.6.0
+streamlit==1.67.0
+plotly==7.1.0
